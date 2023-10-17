@@ -201,7 +201,7 @@ data("BostonHousing")
 
 ### Crop Dataset ----
 # Execute the following to load the downloaded Crop dataset:
-crop_dataset <- read_csv("data/crop.data.csv",
+crop_dataset <- read.csv("data/crop.data.csv",
   col_types = cols(
     density = col_factor(levels = c("1", "2")),
     block = col_factor(levels = c("1", "2", "3", "4")),
